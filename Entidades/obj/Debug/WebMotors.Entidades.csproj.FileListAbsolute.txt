@@ -1,0 +1,8 @@
+D:\Projetos\ApiWebMotors\Entidades\bin\Debug\Entidades.dll
+D:\Projetos\ApiWebMotors\Entidades\bin\Debug\Entidades.pdb
+D:\Projetos\ApiWebMotors\Entidades\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\ApiWebMotors\Entidades\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\ApiWebMotors\Entidades\obj\Debug\WebMotors.Entidades.csproj.CoreCompileInputs.cache
+D:\Projetos\ApiWebMotors\Entidades\obj\Debug\WebMotors.Entidades.csproj.CopyComplete
+D:\Projetos\ApiWebMotors\Entidades\obj\Debug\Entidades.dll
+D:\Projetos\ApiWebMotors\Entidades\obj\Debug\Entidades.pdb

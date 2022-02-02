@@ -1,20 +1,23 @@
 ﻿using Microsoft.Extensions.Configuration;
 using MySqlConnector;
-using System.Configuration;
-using System.IO;
 
-namespace Persistencia
+namespace WebMotors.Persistencia
 {
     public class Conexao
     {
-        private MySqlConnection _conexao;
+        private static MySqlConnection _conexao;
 
         public IConfigurationRoot Configuration { get; set; }
 
-        public Conexao() 
+        public static MySqlConnection GetConexao()
         {
-            _conexao = new MySqlConnection("Server=localhost;DataBase=teste_webmotors;Uid=root;Pwd=admin123");
-            _conexao.Open();
+            if (_conexao == null)
+            {
+                _conexao = new MySqlConnection("Server=localhost;DataBase=teste_webmotors;Uid=root;Pwd=admin123");
+                _conexao.Open();
+            }
+
+            return _conexao;
         }
     }
 }

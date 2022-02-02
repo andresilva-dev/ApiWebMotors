@@ -1,0 +1,14 @@
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\WebMotors.Testes.dll
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\WebMotors.Testes.pdb
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Projetos\ApiWebMotors\WebMotors.Testes\obj\Debug\WebMotors.TestesUnitariosEntidades.csproj.AssemblyReference.cache
+D:\Projetos\ApiWebMotors\WebMotors.Testes\obj\Debug\WebMotors.TestesUnitariosEntidades.csproj.CoreCompileInputs.cache
+D:\Projetos\ApiWebMotors\WebMotors.Testes\obj\Debug\WebMotors.TestesUnitariosEntidades.csproj.CopyComplete
+D:\Projetos\ApiWebMotors\WebMotors.Testes\obj\Debug\WebMotors.Testes.dll
+D:\Projetos\ApiWebMotors\WebMotors.Testes\obj\Debug\WebMotors.Testes.pdb

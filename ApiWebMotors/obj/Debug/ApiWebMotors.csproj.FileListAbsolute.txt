@@ -30,3 +30,5 @@ D:\Projetos\ApiWebMotors\ApiWebMotors\obj\Debug\ApiWebMotors.dll
 D:\Projetos\ApiWebMotors\ApiWebMotors\obj\Debug\ApiWebMotors.pdb
 D:\Projetos\ApiWebMotors\ApiWebMotors\bin\Debug\Newtonsoft.Json.dll
 D:\Projetos\ApiWebMotors\ApiWebMotors\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\ApiWebMotors\ApiWebMotors\bin\Debug\Entidades.dll
+D:\Projetos\ApiWebMotors\ApiWebMotors\bin\Debug\Entidades.pdb

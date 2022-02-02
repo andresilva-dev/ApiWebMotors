@@ -44,3 +44,7 @@ D:\Projetos\ApiWebMotors\Console\bin\Debug\Microsoft.Extensions.Configuration.Ab
 D:\Projetos\ApiWebMotors\Console\bin\Debug\Microsoft.Extensions.Primitives.dll
 D:\Projetos\ApiWebMotors\Console\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
 D:\Projetos\ApiWebMotors\Console\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Projetos\ApiWebMotors\Console\bin\Debug\Entidades.dll
+D:\Projetos\ApiWebMotors\Console\bin\Debug\Facade.dll
+D:\Projetos\ApiWebMotors\Console\bin\Debug\Entidades.pdb
+D:\Projetos\ApiWebMotors\Console\bin\Debug\Facade.pdb

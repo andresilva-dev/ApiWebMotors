@@ -1,33 +1,20 @@
-﻿using ApiWebMotors;
-using Persistencia;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using WebMotors.Facade;
 
-namespace Console
+namespace WebMotors.Console
 {
     class Program
     {
         static void Main(string[] args)
         {
+            //var api = new ApiRestIntegracaoWebMotors();
+            //var carros = api.ObtenhaCarros(1);
+            //var ultimoCarro = carros.Last();
+            //ultimoCarro.ID = 3;
+            var fachadaDeVeiculos = new FachadaDeVeiculos();
+            //fachadaDeVeiculos.InsiraVeiculo(carros[2]);
+            //fachadaDeVeiculos.AtualizeVeiculo(ultimoCarro);
 
-            var a =  new Conexao();
-
-
-            var api = new ApiRestIntegracaoWebMotors();
-
-            var fabricantes = api.ObtenhaFabricantes();
-            var modelos = api.ObtenhaModelos(1);
-            var versoes = api.ObtenhaVersao(1);
-
-            var veiculos = new List<DTOCarro>();
-            for (int i = 1; i < 50; i++) {
-                var carros = api.ObtenhaCarros(i);
-                veiculos.AddRange(carros);
-            }
-           
+            var carroObtido = fachadaDeVeiculos.ObtenhaVeiculo(1);
         }
     }
 }

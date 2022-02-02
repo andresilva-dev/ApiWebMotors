@@ -1,9 +1,9 @@
-﻿using DocumentFormat.OpenXml.Spreadsheet;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using RestSharp;
 using System.Collections.Generic;
+using WebMotors.Entidades;
 
-namespace ApiWebMotors
+namespace WebMotors.Api
 {
     public class ApiRestIntegracaoWebMotors
     {
@@ -43,13 +43,13 @@ namespace ApiWebMotors
 			return JsonConvert.DeserializeObject<List<DTOVersao>>(queryResult.Result.Content);
 		}
 
-		public List<DTOCarro> ObtenhaCarros(int pagina)
+		public List<Veiculo> ObtenhaCarros(int pagina)
 		{
 			var cliente = CrieRestClient();
 
 			var request = new RestRequest("Vehicles/", Method.Get).AddQueryParameter("Page", pagina.ToString());
 			var queryResult = cliente.ExecuteGetAsync(request);
-			return JsonConvert.DeserializeObject<List<DTOCarro>>(queryResult.Result.Content);
+			return JsonConvert.DeserializeObject<List<Veiculo>>(queryResult.Result.Content);
 		}
 	}
 
@@ -73,17 +73,17 @@ namespace ApiWebMotors
 		public string Name { get; set; }
 	}
 
-	public class DTOCarro
-	{
-		public int ID { get; set; }
-		public string Make { get; set; }
-		public string Model { get; set; }
-		public string Version { get; set; }
-		public string Image { get; set; }
-		public int KM { get; set; }
-		public decimal Price { get; set; }
-		public int YearModel { get; set; }
-		public int YearFab { get; set; }
-		public string Color { get; set; }
-	}
+	//public class DTOCarro
+	//{
+	//	public int ID { get; set; }
+	//	public string Make { get; set; }
+	//	public string Model { get; set; }
+	//	public string Version { get; set; }
+	//	public string Image { get; set; }
+	//	public int KM { get; set; }
+	//	public decimal Price { get; set; }
+	//	public int YearModel { get; set; }
+	//	public int YearFab { get; set; }
+	//	public string Color { get; set; }
+	//}
 }

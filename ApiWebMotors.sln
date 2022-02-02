@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiWebMotors", "ApiWebMotors\ApiWebMotors.csproj", "{B8102DB2-A6E0-4974-9335-FBD03F24B4A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMotors.Api", "ApiWebMotors\WebMotors.Api.csproj", "{B8102DB2-A6E0-4974-9335-FBD03F24B4A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{4335F507-097E-40FD-B6BA-98C847894B50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMotors.Console", "Console\WebMotors.Console.csproj", "{4335F507-097E-40FD-B6BA-98C847894B50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "Persistencia\Persistencia.csproj", "{4F8B6817-2D60-4DE8-8AD8-48E032B1DACD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMotors.Persistencia", "Persistencia\WebMotors.Persistencia.csproj", "{4F8B6817-2D60-4DE8-8AD8-48E032B1DACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMotors.Facade", "Facade\WebMotors.Facade.csproj", "{7932C2D5-FF60-4B2C-925C-EFEB0743C00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMotors.Entidades", "Entidades\WebMotors.Entidades.csproj", "{FEC9F1E7-5B7A-4AB8-AA74-2B048111C2A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMotors.TestesUnitariosEntidades", "WebMotors.Testes\WebMotors.TestesUnitariosEntidades.csproj", "{D74C0862-E8E1-4352-ABC3-81AEEEA2CF9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{4F8B6817-2D60-4DE8-8AD8-48E032B1DACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F8B6817-2D60-4DE8-8AD8-48E032B1DACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F8B6817-2D60-4DE8-8AD8-48E032B1DACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7932C2D5-FF60-4B2C-925C-EFEB0743C00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7932C2D5-FF60-4B2C-925C-EFEB0743C00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7932C2D5-FF60-4B2C-925C-EFEB0743C00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7932C2D5-FF60-4B2C-925C-EFEB0743C00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC9F1E7-5B7A-4AB8-AA74-2B048111C2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC9F1E7-5B7A-4AB8-AA74-2B048111C2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC9F1E7-5B7A-4AB8-AA74-2B048111C2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC9F1E7-5B7A-4AB8-AA74-2B048111C2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74C0862-E8E1-4352-ABC3-81AEEEA2CF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74C0862-E8E1-4352-ABC3-81AEEEA2CF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74C0862-E8E1-4352-ABC3-81AEEEA2CF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74C0862-E8E1-4352-ABC3-81AEEEA2CF9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

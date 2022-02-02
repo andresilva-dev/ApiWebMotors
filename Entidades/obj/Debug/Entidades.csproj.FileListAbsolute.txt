@@ -1,0 +1,6 @@
+D:\Projetos\ApiWebMotors\Entidades\bin\Debug\Entidades.dll
+D:\Projetos\ApiWebMotors\Entidades\bin\Debug\Entidades.pdb
+D:\Projetos\ApiWebMotors\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+D:\Projetos\ApiWebMotors\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Projetos\ApiWebMotors\Entidades\obj\Debug\Entidades.dll
+D:\Projetos\ApiWebMotors\Entidades\obj\Debug\Entidades.pdb

@@ -27,3 +27,5 @@ D:\Projetos\ApiWebMotors\Persistencia\bin\Debug\System.ValueTuple.dll
 D:\Projetos\ApiWebMotors\Persistencia\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
 D:\Projetos\ApiWebMotors\Persistencia\bin\Debug\Microsoft.Extensions.Primitives.xml
 D:\Projetos\ApiWebMotors\Persistencia\bin\Debug\System.ValueTuple.xml
+D:\Projetos\ApiWebMotors\Persistencia\bin\Debug\Entidades.dll
+D:\Projetos\ApiWebMotors\Persistencia\bin\Debug\Entidades.pdb
