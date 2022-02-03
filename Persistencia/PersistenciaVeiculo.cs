@@ -4,9 +4,9 @@ using WebMotors.Entidades;
 
 namespace WebMotors.Persistencia
 {
-    public class PersistenciaVeiculo
+    internal class PersistenciaVeiculo : IPersistencia<Veiculo>
     {
-        public void InsiraVeiculo(Veiculo carro)
+        public void Insira(Veiculo carro)
         {
             var sqlInsert = $@"INSERT INTO TB_ANUNCIOWEBMOTORS(ID, MARCA, MODELO, VERSAO, ANO, QUILOMETRAGEM, OBSERVACAO) 
                                                        VALUES(@ID, @MARCA, @MODELO, @VERSAO, @ANO, @QUILOMETRAGEM, @OBSERVACAO)";
@@ -26,7 +26,7 @@ namespace WebMotors.Persistencia
             }
         }
 
-        public void AtualizeVeiculo(Veiculo carro)
+        public void Atualize(Veiculo carro)
         {
             var sqlUpdate = @"UPDATE TB_ANUNCIOWEBMOTORS SET MARCA = @MARCA, MODELO = @MODELO, VERSAO = @VERSAO, ANO = @ANO, 
                                QUILOMETRAGEM = @QUILOMETRAGEM, OBSERVACAO = @OBSERVACAO WHERE ID = @ID";
@@ -46,9 +46,9 @@ namespace WebMotors.Persistencia
             }
         }
 
-        public void ExcluaVeiculo(int id)
+        public void Exclua(int id)
         {
-            string sqlDelete = $"DELETE FROM TB_ANUNCIOWEBMOTORS WHERE ID = @ID"; 
+            string sqlDelete = $"DELETE FROM TB_ANUNCIOWEBMOTORS WHERE ID = @ID";
 
             using (var conexao = Conexao.GetConexao())
             using (var transction = conexao.BeginTransaction())
@@ -60,13 +60,13 @@ namespace WebMotors.Persistencia
 
                 cmd.Parameters.AddWithValue("@ID", id);
                 cmd.Prepare();
-                
+
                 cmd.ExecuteNonQuery();
                 transction.Commit();
             }
         }
 
-        public Veiculo ObtenhaVeiculo(int id)
+        public Veiculo Obtenha(int id)
         {
             string sqlSelect = $"SELECT * FROM TB_ANUNCIOWEBMOTORS WHERE ID = @ID";
 
@@ -83,10 +83,10 @@ namespace WebMotors.Persistencia
 
                 var reader = cmd.ExecuteReader();
 
-                if(reader.Read())
+                if (reader.Read())
                 {
                     var identificador = Convert.ToInt32(reader["ID"].ToString());
-                    
+
                     return new Veiculo(identificador)
                     {
                         Make = reader["MARCA"].ToString(),

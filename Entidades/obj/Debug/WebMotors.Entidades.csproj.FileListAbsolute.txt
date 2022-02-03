@@ -6,3 +6,4 @@ D:\Projetos\ApiWebMotors\Entidades\obj\Debug\WebMotors.Entidades.csproj.CoreComp
 D:\Projetos\ApiWebMotors\Entidades\obj\Debug\WebMotors.Entidades.csproj.CopyComplete
 D:\Projetos\ApiWebMotors\Entidades\obj\Debug\Entidades.dll
 D:\Projetos\ApiWebMotors\Entidades\obj\Debug\Entidades.pdb
+D:\Projetos\ApiWebMotors\Entidades\obj\Debug\WebMotors.Entidades.csproj.AssemblyReference.cache

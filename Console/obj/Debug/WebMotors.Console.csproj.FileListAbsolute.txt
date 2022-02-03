@@ -1,8 +1,3 @@
-D:\Projetos\ApiWebMotors\Console\obj\Debug\WebMotors.Console.csproj.AssemblyReference.cache
-D:\Projetos\ApiWebMotors\Console\obj\Debug\Console.exe.config
-D:\Projetos\ApiWebMotors\Console\obj\Debug\WebMotors.Console.csproj.CoreCompileInputs.cache
-D:\Projetos\ApiWebMotors\Console\obj\Debug\Console.exe
-D:\Projetos\ApiWebMotors\Console\obj\Debug\Console.pdb
 D:\Projetos\ApiWebMotors\Console\bin\Debug\appsettings.json
 D:\Projetos\ApiWebMotors\Console\bin\Debug\Console.exe.config
 D:\Projetos\ApiWebMotors\Console\bin\Debug\Console.exe
@@ -48,4 +43,9 @@ D:\Projetos\ApiWebMotors\Console\bin\Debug\System.Text.Encodings.Web.xml
 D:\Projetos\ApiWebMotors\Console\bin\Debug\System.Numerics.Vectors.xml
 D:\Projetos\ApiWebMotors\Console\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 D:\Projetos\ApiWebMotors\Console\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projetos\ApiWebMotors\Console\obj\Debug\WebMotors.Console.csproj.AssemblyReference.cache
+D:\Projetos\ApiWebMotors\Console\obj\Debug\Console.exe.config
+D:\Projetos\ApiWebMotors\Console\obj\Debug\WebMotors.Console.csproj.CoreCompileInputs.cache
 D:\Projetos\ApiWebMotors\Console\obj\Debug\WebMotors.Console.csproj.CopyComplete
+D:\Projetos\ApiWebMotors\Console\obj\Debug\Console.exe
+D:\Projetos\ApiWebMotors\Console\obj\Debug\Console.pdb

@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMotors.Entidades", "Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMotors.TestesUnitariosEntidades", "WebMotors.Testes\WebMotors.TestesUnitariosEntidades.csproj", "{D74C0862-E8E1-4352-ABC3-81AEEEA2CF9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMotors.Web", "WebMotors.Web\WebMotors.Web.csproj", "{682884BA-D378-4604-91CC-2DB46C9A520B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D74C0862-E8E1-4352-ABC3-81AEEEA2CF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D74C0862-E8E1-4352-ABC3-81AEEEA2CF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D74C0862-E8E1-4352-ABC3-81AEEEA2CF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682884BA-D378-4604-91CC-2DB46C9A520B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682884BA-D378-4604-91CC-2DB46C9A520B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682884BA-D378-4604-91CC-2DB46C9A520B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682884BA-D378-4604-91CC-2DB46C9A520B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

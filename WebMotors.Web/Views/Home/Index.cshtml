@@ -1,0 +1,68 @@
+﻿@model Facade.Models.CatalogoModel
+
+@{
+    ViewData["Title"] = "Web Motors";
+}
+
+<section>
+    <div>
+        <div style="background-image: url(images/banners/Template.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover">
+            <div style="text-align: center;">
+                <img src="~/images/banners/buscacarros.png" />
+            </div>
+        </div>
+        <div class="container" style="padding-top: 20px">
+            <div class="row">
+                @{
+                    foreach (var produto in Model.Carros)
+                    {
+                        <div class="col-md-3">
+                            <div href="#" class="card card-product-grid">
+                                <a class="img-wrap">
+                                    <img src="@produto.Image" alt="@produto.Make">
+                                </a>
+                                <figcaption class="info-wrap">
+                                    <a class="title">
+                                        <b> @produto.Make</b>
+                                    </a>
+
+                                    <small class="card-text">
+                                        @produto.Model<br /><br />
+                                        @produto.Version
+                                    </small>
+                                </figcaption>
+                                <div class="card-footer price mt-1">
+                                    <h3>R$ @produto.Price</h3>
+                                    <small class="card-text">
+                                        @produto.YearFab / @produto.YearModel           kM:@produto.KM
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+
+            <nav>
+                <ul class="pagination justify-content-center">
+                    @{
+                        for (var i = 1; i < 4; i++)
+                        {
+                            if (i == Model.Pagina)
+                            {
+                                <li class="page-item active">
+                                    <a class="page-link" href="@Url.Action("Index", "Home",new {page = i })">@i <span class="sr-only">(current)</span></a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item"><a class="page-link" href="@Url.Action("Index", "Home",new {page = i })">@i</a></li>
+                            }
+                        }
+                    }
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+</section>
