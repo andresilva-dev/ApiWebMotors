@@ -1,7 +1,7 @@
-﻿using Newtonsoft.Json;
+﻿using ApiWebMotors.DTOs;
+using Newtonsoft.Json;
 using RestSharp;
 using System.Collections.Generic;
-using WebMotors.Entidades;
 
 namespace WebMotors.Api
 {
@@ -51,39 +51,5 @@ namespace WebMotors.Api
 			var queryResult = cliente.ExecuteGetAsync(request);
 			return JsonConvert.DeserializeObject<List<DTOCarro>>(queryResult.Result.Content);
 		}
-	}
-
-	public class DTOFabricante
-	{
-		public int ID { get; set; }
-		public string Name { get; set; }
-	}
-
-	public class DTOModelo
-	{
-		public int MakeID { get; set; }
-		public int ID { get; set; }
-		public string Name { get; set; }
-	}
-
-	public class DTOVersao
-	{
-		public int ModelID { get; set; }
-		public int ID { get; set; }
-		public string Name { get; set; }
-	}
-
-	public class DTOCarro
-	{
-		public int ID { get; set; }
-		public string Make { get; set; }
-		public string Model { get; set; }
-		public string Version { get; set; }
-		public string Image { get; set; }
-		public int KM { get; set; }
-		public decimal Price { get; set; }
-		public int YearModel { get; set; }
-		public int YearFab { get; set; }
-		public string Color { get; set; }
 	}
 }

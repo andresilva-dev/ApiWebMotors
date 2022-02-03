@@ -54,7 +54,7 @@ namespace WebMotors.Entidades
 			get => _anoModelo;
 			set
 			{
-				if (value < 1700)
+				if (value < 1500)
 				{
 					throw new Exception("O valor informado para o ano do modelo do veículo é inválido!");
 				}
@@ -67,7 +67,7 @@ namespace WebMotors.Entidades
 			get => _anoFabricacao;
 			set
 			{
-				if (value < 1700 || value > DateTime.Now.Year)
+				if (value < 1500 || value > DateTime.Now.Year)
 				{
 					throw new Exception("O valor informado para o ano do modelo do veículo é inválido!");
 				}

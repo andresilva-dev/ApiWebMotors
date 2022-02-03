@@ -80,6 +80,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiRestIntegracaoWebMotors.cs" />
+    <Compile Include="DTOs\DTOCarro.cs" />
+    <Compile Include="DTOs\DTOFabricante.cs" />
+    <Compile Include="DTOs\DTOModelo.cs" />
+    <Compile Include="DTOs\DTOVersao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,3 @@
-D:\Projetos\ApiWebMotors\Persistencia\bin\Debug\appsettings.json
 D:\Projetos\ApiWebMotors\Persistencia\bin\Debug\Persistencia.dll.config
 D:\Projetos\ApiWebMotors\Persistencia\bin\Debug\Persistencia.dll
 D:\Projetos\ApiWebMotors\Persistencia\bin\Debug\Persistencia.pdb

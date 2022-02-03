@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="FachadaDeVeiculos.cs" />
     <Compile Include="Models\CatalogoModel.cs" />
+    <Compile Include="Models\VeiculoModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -12,3 +12,7 @@ D:\Projetos\ApiWebMotors\WebMotors.Testes\obj\Debug\WebMotors.TestesUnitariosEnt
 D:\Projetos\ApiWebMotors\WebMotors.Testes\obj\Debug\WebMotors.TestesUnitariosEntidades.csproj.CopyComplete
 D:\Projetos\ApiWebMotors\WebMotors.Testes\obj\Debug\WebMotors.Testes.dll
 D:\Projetos\ApiWebMotors\WebMotors.Testes\obj\Debug\WebMotors.Testes.pdb
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Entidades.dll
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Entidades.pdb
+D:\Projetos\ApiWebMotors\WebMotors.Testes\bin\Debug\Newtonsoft.Json.xml

@@ -1,6 +1,5 @@
 D:\Projetos\ApiWebMotors\WebMotors.Web\obj\Debug\WebMotors.Web.csproj.AssemblyReference.cache
 D:\Projetos\ApiWebMotors\WebMotors.Web\obj\Debug\WebMotors.Web.csproj.CoreCompileInputs.cache
-D:\Projetos\ApiWebMotors\WebMotors.Web\bin\appsettings.json
 D:\Projetos\ApiWebMotors\WebMotors.Web\bin\WebMotors.Web.dll.config
 D:\Projetos\ApiWebMotors\WebMotors.Web\bin\WebMotors.Web.dll
 D:\Projetos\ApiWebMotors\WebMotors.Web\bin\WebMotors.Web.pdb

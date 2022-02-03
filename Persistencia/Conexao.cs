@@ -14,9 +14,9 @@ namespace WebMotors.Persistencia
             if (_conexao == null)
             {
                 _conexao = new MySqlConnection("Server=localhost;DataBase=teste_webmotors;Uid=root;Pwd=admin123");
-                _conexao.Open();
             }
 
+            _conexao.Open();
             return _conexao;
         }
     }

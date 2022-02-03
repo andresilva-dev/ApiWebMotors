@@ -49,11 +49,27 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PersistenciaTest.cs" />
+    <Compile Include="Properties\ApiTest.cs" />
     <Compile Include="VeiculoTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApiWebMotors\WebMotors.Api.csproj">
+      <Project>{B8102DB2-A6E0-4974-9335-FBD03F24B4A1}</Project>
+      <Name>WebMotors.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\WebMotors.Entidades.csproj">
+      <Project>{FEC9F1E7-5B7A-4AB8-AA74-2B048111C2A7}</Project>
+      <Name>WebMotors.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Persistencia\WebMotors.Persistencia.csproj">
+      <Project>{4F8B6817-2D60-4DE8-8AD8-48E032B1DACD}</Project>
+      <Name>WebMotors.Persistencia</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
